@@ -38,9 +38,9 @@ Python / 591
    
 ## Libraries used 
 
-typer - 0.3.2 
-typer-cli - 0.0.12 
-Pillow - 9.0.1 
+typer - 0.3.2   
+typer-cli - 0.0.12   
+Pillow - 9.0.1   
 
 ## How to configure 
 
