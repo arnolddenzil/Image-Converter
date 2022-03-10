@@ -1,12 +1,19 @@
 # Image-Converter
+
 Program to change the size of the image and save it to new name and new type.
 
 ## Team members
+
 1. Arnold Denzil [github](https://github.com/arnolddenzil)
 2. Vrinda Lekshmi
 
 ## Team Id
+
 Python / 591
+
+## Link to product walkthrough   
+
+[link to video](https://www.youtube.com/watch?v=nlTjAEUt7OQ)
 
 ## How it Works ?
 
