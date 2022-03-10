@@ -20,22 +20,16 @@ Python / 591
 -> To know how to use a command use 'typer image-converter.py run {command} --help'
 ----------------------------------------------------------------------------------------------------------------
    Note:-
--> Using typer would be much easier if you have typer-cli installed as it will provide you with 
-   autocompletion(just press tab key).
--> The curly blackets'{}' should not be included when entering the command and the place should be completely 
-   replaced with what is specified inside the brackets.
--> The {image_location} is expected to have the name of the image file if it is present in the same directory 
-   as the program or if it is present outside the program directory, it expectsthe full file path.
--> The backslash symbol in location path(when copying the location from the image file property) should be
-   replaced with '/'.
+-> Using typer would be much easier if you have typer-cli installed as it will provide you with autocompletion(just press tab key).
+-> The curly blackets'{}' should not be included when entering the command and the place should be completely replaced with what is specified inside the brackets.
+-> The {image_location} is expected to have the name of the image file if it is present in the same directory as the program or if it is present outside the program directory, it expectsthe full file path.
+-> The backslash symbol in location path(when copying the location from the image file property) should bereplaced with '/'.
 -> The {new_image_name} should also contain the file format that is required to save in.
 ----------------------------------------------------------------------------------------------------------------
    Options:-
 -> To resize the image use '--width {width}' to change the width and '--height {height}' to change the height
--> Note that it is not necessary to mention both the width and height as it will keep the aspect ratio by 
-   default and the width and height entered will be used as the maximum widht and height.
--> Inorder to manually set the width and height you must mention '--no-keep-aspect-ratio' option and must also
-   mention the height and width using '--width {width}' and '--height {height}' options.
+-> Note that it is not necessary to mention both the width and height as it will keep the aspect ratio by default and the width and height entered will be used as the maximum widht and height.
+-> Inorder to manually set the width and height you must mention '--no-keep-aspect-ratio' option and must alsomention the height and width using '--width {width}' and '--height {height}' options.
    
 ## Libraries used
 typer - 0.3.2
